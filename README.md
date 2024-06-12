@@ -6,6 +6,8 @@
 ## Overview
 The Ticket System Web Application is designed to streamline issue resolution and communication by facilitating the creation, management, and tracking of support tickets. It aims to reduce response times and improve operational efficiency by ensuring that issues are promptly addressed and resolved.
 
+![Screen Shot 2024-06-12 at 4 22 42 pm](https://github.com/LucCo99/MyWebApp/assets/66907111/876dfdde-84b1-4a79-b842-0364a3ef8dc2)
+
 ## Features
 - Ticket Creation: Users can easily create new support tickets by providing relevant details about the issue.
 
