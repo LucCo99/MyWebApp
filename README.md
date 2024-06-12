@@ -25,11 +25,11 @@ Describe how users can interact with the web application. Provide guidance on na
 
 ## Technologies Used
 
--Frontend: HTML, CSS, JavaScript
--Backend: PHP
--Database: DynamolDB (currenly developing)
--Email Integration: SMTP protocol
--Hosting: EC2 (AWS)
+- Frontend: HTML, CSS, JavaScript
+- Backend: PHP
+- Database: DynamolDB (currenly developing)
+- Email Integration: SMTP protocol
+- Hosting: EC2 (AWS)
 
 
 ## Documentation
