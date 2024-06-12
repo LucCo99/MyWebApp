@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Resources:
+  MyInstance:
+    Type: "AWS::EC2::Instance"
+    Properties:
+      InstanceType: "t2.micro"  # Choose the instance type (cheapest is usually t2.micro)
+      ImageId: "ami-0c55b159cbfafe1f0"  # Specify the AMI (Amazon Linux AMI)
+      KeyName: "demo"  # Specify the key pair for SSH access
+      SecurityGroups:
+        - Ref: WebServerSecurityGroup
+  WebServerSecurityGroup:
+    Type: "AWS::EC2::SecurityGroup"
+    Properties:
+      GroupDescription: "Enable HTTP access"
+      SecurityGroupIngress:
+        - IpProtocol: "tcp"
+          FromPort: "80"
+          ToPort: "80"
+          CidrIp: "0.0.0.0/0"  # Allow traffic from all IP addresses (you may want to restrict this)
